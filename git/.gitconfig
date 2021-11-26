@@ -1,0 +1,21 @@
+[user]
+	name = Calvyn
+	email = deeznuts@gmail.com
+[alias]
+	add-commit = !git add -A && git commit
+	p = push
+	st = status -sb
+	last = log -1 HEAD --stat
+	cm = commit -m
+	alias = config --global -l
+	g = git
+	co = checkout
+	cb = checkout -b
+	upstream = !git push -u origin HEAD
+	del = branch -D
+	undo = reset --hard
+	rmAlias = config --global --unset
+	addAlias = config --global
+[filesystem "Oracle Corporation|16.0.1|-1438181268"]
+	timestampResolution = 1003 microseconds
+	minRacyThreshold = 0 nanoseconds
